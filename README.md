@@ -19,33 +19,53 @@ Các checkpoint trong tất cả các thực nghiệm trên đều được lưu
 # 2. Cấu trúc thư mục
 
 ```text
-CS231/
+```text
+CS231-Project/
 ├── dataset/
 │   ├── RAF/
-│   │   ├── train_00001.jpg
-│   │   ├── train_00002.jpg
-│   │   └── ...
 │   └── list_patition_label.txt
 │
 ├── methods/
 │   ├── Advanced-FER-CNN/
 │   │   ├── train.py
 │   │   └── train.sh
+│   │
 │   ├── EfficientNetV2-S/
 │   │   ├── train.py
 │   │   └── train.sh
+│   │
 │   ├── hybrid-vit/
 │   │   ├── train.py
+│   │   ├── train.sh
 │   │   └── former.py
+│   │
 │   ├── LNSU/
 │   │   ├── configs/
 │   │   ├── utils/
-│   │   └── train_exp.py
+│   │   ├── train_exp.py
+│   │   └── train_exp.sh
+│   │
 │   └── ResNet18-Discriminative-loss/
-│       ├── rafdb.py
-│       ├── affectnet.py
-│       └── networks/
+│       ├── models/
+│       │   └── resnet18_msceleb.pth
+│       ├── MLP_Affinity_RAF_DB_Training.ipynb
+│       ├── rafdb_resnet18_mlp_pretrained_ce_affinity.pth
+│       ├── rafdb_resnet18_mlp_pretrained_ce.pth
+│       ├── rafdb_resnet18_mlp_random_ce_affinity.pth
+│       └── rafdb_resnet18_mlp_random_ce.pth
+│
+├── weights/
+│   ├── best_cnn_model.h5
+│   ├── best_EfficientNetV2_RAFDB_rafdb.pth
+│   ├── best_model.pth
+│   ├── checkpoint_step_59999_gpu_0.pt
+│   ├── start_0.pt
+│   ├── resnet18_msceleb.pth
+│   └── datasets.zip
+│
 └── README.md
+```
+
 ```
 
 ---
@@ -248,7 +268,6 @@ tensorboard/
 ```
 
 ---
-
 # 9. Method 5 – DAN (ResNet18 + Discriminative Loss)
 
 Paper:
@@ -261,43 +280,52 @@ Thư mục:
 methods/ResNet18-Discriminative-loss
 ```
 
-## Variants
+## Pretrained Backbone
 
-Sau khi refactor, DAN được đánh giá với 4 cấu hình:
-
-| Model                                     | Initialization     | Affinity Loss |
-| ----------------------------------------- | ------------------ | ------------- |
-| rafdb_resnet18_mlp_pretrained_ce_affinity | MSCeleb pretrained | Yes           |
-| rafdb_resnet18_mlp_pretrained_ce          | MSCeleb pretrained | No            |
-| rafdb_resnet18_mlp_random_ce_affinity     | Random init        | Yes           |
-| rafdb_resnet18_mlp_random_ce              | Random init        | No            |
-
-## Checkpoints
-
-Các checkpoint đã huấn luyện được lưu trên Hugging Face.
+DAN sử dụng backbone ResNet18 pretrained trên MSCeleb.
 
 ```text
-weights/
-├── rafdb_resnet18_mlp_pretrained_ce_affinity.pth
-├── rafdb_resnet18_mlp_pretrained_ce.pth
-├── rafdb_resnet18_mlp_random_ce_affinity.pth
-└── rafdb_resnet18_mlp_random_ce.pth
+methods/ResNet18-Discriminative-loss/
+└── models/
+    └── resnet18_msceleb.pth
 ```
 
-## Training
+## Experimental Notebook
+
+Toàn bộ pipeline huấn luyện và đánh giá được thực hiện trong:
+
+```text
+MLP_Affinity_RAF_DB_Training.ipynb
+```
+
+Mở notebook:
 
 ```bash
-cd methods/ResNet18-Discriminative-loss
-
-CUDA_VISIBLE_DEVICES=0 python rafdb.py
+jupyter notebook
 ```
 
-## Output
+hoặc
+
+```bash
+jupyter lab
+```
+
+sau đó chạy toàn bộ notebook theo thứ tự.
+
+## Experimental Variants
+
+| Model                                     | Initialization        | Affinity Loss |
+| ----------------------------------------- | --------------------- | ------------- |
+| rafdb_resnet18_mlp_pretrained_ce_affinity | MSCeleb pretrained    | ✓             |
+| rafdb_resnet18_mlp_pretrained_ce          | MSCeleb pretrained    | ✗             |
+| rafdb_resnet18_mlp_random_ce_affinity     | Random initialization | ✓             |
+| rafdb_resnet18_mlp_random_ce              | Random initialization | ✗             |
+
+## Output Checkpoints
 
 ```text
-checkpoints/
-figures/
-classification_report.png
-confusion_matrix.png
-training_curves.png
+rafdb_resnet18_mlp_pretrained_ce_affinity.pth
+rafdb_resnet18_mlp_pretrained_ce.pth
+rafdb_resnet18_mlp_random_ce_affinity.pth
+rafdb_resnet18_mlp_random_ce.pth
 ```
