@@ -220,7 +220,7 @@ Sau khi tải, đặt file vào thư mục:
 
 ```text
 methods/LNSU/
-└── star_0.pt
+└── start_0.pt
 ```
 
 ## Chạy huấn luyện

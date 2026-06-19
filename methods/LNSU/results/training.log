@@ -7484,3 +7484,19 @@ Training: 2026-06-19 06:13:31,209-Test: [60/96]	Time 7.493 (6.731)	Loss 0.5645 (
 Training: 2026-06-19 06:14:38,425-Test: [70/96]	Time 6.035 (6.730)	Loss 0.8106 (0.7569)	Acc@1 75.000 (85.255)	Acc@5 100.000 (99.076)	Mem 2871MB
 Training: 2026-06-19 06:15:45,418-Test: [80/96]	Time 6.940 (6.726)	Loss 0.9462 (0.7569)	Acc@1 65.625 (84.915)	Acc@5 100.000 (99.190)	Mem 2871MB
 Training: 2026-06-19 06:16:53,961-Test: [90/96]	Time 7.686 (6.740)	Loss 0.6678 (0.7628)	Acc@1 93.750 (84.615)	Acc@5 100.000 (99.210)	Mem 2871MB
+Training: 2026-06-19 06:17:28,805-[2999]Expression Loss: 0.76477
+Training: 2026-06-19 06:17:28,805-[2999]Expression Acc@1: 84.32203
+Training: 2026-06-19 06:17:28,805-[2999]Expression Acc@1-Highest: 84.32203
+Training: 2026-06-19 06:17:28,805-[2999]Expression Acc@5: 99.18514
+Training: 2026-06-19 06:17:28,805-[2999]Expression Acc@5-Highest: 99.18514
+Training: 2026-06-19 06:17:28,805-[2999]10 Times Expression Acc@1: 79.01999
+Training: 2026-06-19 06:17:28,805-[2999]10 Times Expression Acc@1-Highest: 79.01999
+Training: 2026-06-19 06:17:29,261-Speed 0.25 samples/sec   Loss 1.4078   LearningRate 0.000016   Epoch: 0   Global Step: 3000   Fp16 Grad Scale: 32768   Required: 16 hours
+Training: 2026-06-19 06:17:32,388-Speed 51.17 samples/sec   Loss 1.3890   LearningRate 0.000016   Epoch: 0   Global Step: 3010   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:34,972-Speed 61.94 samples/sec   Loss 1.3907   LearningRate 0.000016   Epoch: 0   Global Step: 3020   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:38,337-Speed 47.55 samples/sec   Loss 1.4041   LearningRate 0.000016   Epoch: 0   Global Step: 3030   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:40,511-Speed 73.62 samples/sec   Loss 1.4192   LearningRate 0.000016   Epoch: 0   Global Step: 3040   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:43,758-Speed 49.28 samples/sec   Loss 1.4689   LearningRate 0.000016   Epoch: 0   Global Step: 3050   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:46,356-Speed 61.60 samples/sec   Loss 1.4732   LearningRate 0.000016   Epoch: 0   Global Step: 3060   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:49,359-Speed 53.35 samples/sec   Loss 1.4345   LearningRate 0.000016   Epoch: 0   Global Step: 3070   Fp16 Grad Scale: 16384   Required: 16 hours
+Training: 2026-06-19 06:17:52,691-Speed 48.04 samples/sec   Loss 1.4078   LearningRate 0.000016   Epoch: 0   Global Step: 3080   Fp16 Grad Scale: 16384   Required: 16 hours
