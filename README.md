@@ -212,11 +212,9 @@ methods/LNSU
 
 ## Pretrained Model
 
-LNSU sử dụng checkpoint khởi tạo `star_0.pt`.
+LNSU sử dụng checkpoint khởi tạo `start_0.pt`.
 
-Nếu chưa có file này, có thể tải trực tiếp từ Hugging Face:
-
-:contentReference[oaicite:0]{index=0}
+Nếu chưa có file này, có thể tải trực tiếp từ Hugging Face [start_0.pt](https://huggingface.co/yangtzentg/LNSU/tree/main)
 
 Sau khi tải, đặt file vào thư mục:
 
