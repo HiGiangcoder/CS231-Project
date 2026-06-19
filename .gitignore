@@ -16,6 +16,3 @@ tensorboard/
 # Python
 __pycache__/
 *.pyc
-
-# Figures
-*.png

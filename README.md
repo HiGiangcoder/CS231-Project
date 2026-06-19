@@ -6,11 +6,11 @@ Thực hiện benchmark các phương pháp nhận diện cảm xúc khuôn mặ
 
 Các phương pháp được đánh giá:
 
-1. Advanced-FER-CNN
-2. EfficientNetV2-S
-3. Hybrid Vision Transformer (Hybrid-ViT)
-4. LNSU
-5. DAN (ResNet18 + Discriminative Loss)
+1. Advanced-FER-CNN (Phong)
+2. EfficientNetV2-S (Trường)
+3. Hybrid Vision Transformer (Hybrid-ViT) (Thịnh)
+4. LNSU (Giang)
+5. DAN (ResNet18 + Discriminative Loss) (Thiện)
 
 Các checkpoint trong tất cả các thực nghiệm trên đều được lưu ở [đây](https://huggingface.co/yangtzentg/LNSU/tree/main), và các hướng dẫn lưu checkpoint ở [đây](https://huggingface.co/yangtzentg/LNSU/blob/main/README.md)
 
@@ -253,7 +253,7 @@ tensorboard/
 
 Paper:
 
-Distract Your Attention: Multi-head Cross Attention Network for Facial Expression Recognition
+**Distract Your Attention: Multi-head Cross Attention Network for Facial Expression Recognition**
 
 Thư mục:
 
@@ -261,7 +261,30 @@ Thư mục:
 methods/ResNet18-Discriminative-loss
 ```
 
-## Chạy huấn luyện
+## Variants
+
+Sau khi refactor, DAN được đánh giá với 4 cấu hình:
+
+| Model                                     | Initialization     | Affinity Loss |
+| ----------------------------------------- | ------------------ | ------------- |
+| rafdb_resnet18_mlp_pretrained_ce_affinity | MSCeleb pretrained | Yes           |
+| rafdb_resnet18_mlp_pretrained_ce          | MSCeleb pretrained | No            |
+| rafdb_resnet18_mlp_random_ce_affinity     | Random init        | Yes           |
+| rafdb_resnet18_mlp_random_ce              | Random init        | No            |
+
+## Checkpoints
+
+Các checkpoint đã huấn luyện được lưu trên Hugging Face.
+
+```text
+weights/
+├── rafdb_resnet18_mlp_pretrained_ce_affinity.pth
+├── rafdb_resnet18_mlp_pretrained_ce.pth
+├── rafdb_resnet18_mlp_random_ce_affinity.pth
+└── rafdb_resnet18_mlp_random_ce.pth
+```
+
+## Training
 
 ```bash
 cd methods/ResNet18-Discriminative-loss
@@ -273,5 +296,8 @@ CUDA_VISIBLE_DEVICES=0 python rafdb.py
 
 ```text
 checkpoints/
-best_model.pth
+figures/
+classification_report.png
+confusion_matrix.png
+training_curves.png
 ```
