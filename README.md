@@ -66,8 +66,6 @@ CS231-Project/
 └── README.md
 ```
 
-```
-
 ---
 
 # 3. Dataset
