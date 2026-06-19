@@ -1,3 +1,21 @@
-*.pth
+# Dataset
+dataset/RAF/
+
+# Checkpoints
 *.pt
-RAF
+*.pth
+*.h5
+*.keras
+weights
+
+# Logs
+logs/
+results/
+tensorboard/
+
+# Python
+__pycache__/
+*.pyc
+
+# Figures
+*.png
