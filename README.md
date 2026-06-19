@@ -12,7 +12,7 @@ Các phương pháp được đánh giá:
 4. LNSU
 5. DAN (ResNet18 + Discriminative Loss)
 
-Các checkpoint trong tất cả các thực nghiệm trên đều được lưu ở [đây](https://huggingface.co/yangtzentg/LNSU/tree/main)
+Các checkpoint trong tất cả các thực nghiệm trên đều được lưu ở [đây](https://huggingface.co/yangtzentg/LNSU/tree/main), và các hướng dẫn lưu checkpoint ở [đây](https://huggingface.co/yangtzentg/LNSU/blob/main/README.md)
 
 ---
 
