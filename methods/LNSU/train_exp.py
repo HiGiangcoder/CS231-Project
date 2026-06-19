@@ -261,7 +261,7 @@ def main(args):
                 loss_am.update(loss.item(), 1)
 
                 callback_logging(global_step, loss_am, epoch, cfg.fp16,
-                                 lr_scheduler.get_update_values(global_step)[0], amp)
+                                 opt.param_groups[0]["lr"], amp)
 
                 if (global_step+1) % cfg.verbose == 0:
                     expression_verification(global_step, model)

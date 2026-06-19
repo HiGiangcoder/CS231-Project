@@ -6907,3 +6907,266 @@ Training: 2026-06-19 04:25:42,053-: val_pin_memory           True
 Training: 2026-06-19 04:25:42,053-: total_batch_size         32
 Training: 2026-06-19 04:25:42,053-: epoch_step               31250
 Training: 2026-06-19 04:25:42,053-: num_epoch                2
+Training: 2026-06-19 05:21:18,068-rank_id: 0
+Training: 2026-06-19 05:21:27,240-: network                  swin_t
+Training: 2026-06-19 05:21:27,241-: resume                   False
+Training: 2026-06-19 05:21:27,241-: resume_step              0
+Training: 2026-06-19 05:21:27,241-: init                     True
+Training: 2026-06-19 05:21:27,241-: init_model               ./
+Training: 2026-06-19 05:21:27,242-: save_all_states          True
+Training: 2026-06-19 05:21:27,242-: output                   ./results
+Training: 2026-06-19 05:21:27,242-: img_size                 112
+Training: 2026-06-19 05:21:27,242-: embedding_size           512
+Training: 2026-06-19 05:21:27,242-: fp16                     True
+Training: 2026-06-19 05:21:27,242-: optimizer                adamw
+Training: 2026-06-19 05:21:27,243-: lr                       3.125e-05
+Training: 2026-06-19 05:21:27,243-: weight_decay             0.05
+Training: 2026-06-19 05:21:27,243-: lr_name                  cosine
+Training: 2026-06-19 05:21:27,243-: warmup_lr                3.125e-08
+Training: 2026-06-19 05:21:27,243-: min_lr                   3.125e-07
+Training: 2026-06-19 05:21:27,243-: decay_epoch              10
+Training: 2026-06-19 05:21:27,243-: decay_rate               0.1
+Training: 2026-06-19 05:21:27,243-: verbose                  1000
+Training: 2026-06-19 05:21:27,244-: save_verbose             6000
+Training: 2026-06-19 05:21:27,244-: frequent                 10
+Training: 2026-06-19 05:21:27,244-: dali                     False
+Training: 2026-06-19 05:21:27,244-: seed                     2048
+Training: 2026-06-19 05:21:27,244-: num_workers              0
+Training: 2026-06-19 05:21:27,244-: warmup_step              2000
+Training: 2026-06-19 05:21:27,244-: total_step               60000
+Training: 2026-06-19 05:21:27,244-: expression_train_dataset RAF-DB
+Training: 2026-06-19 05:21:27,245-: expression_val_dataset   RAF-DB
+Training: 2026-06-19 05:21:27,245-: RAF_data                 ../../dataset/RAF
+Training: 2026-06-19 05:21:27,245-: RAF_label                ../../dataset/list_patition_label.txt
+Training: 2026-06-19 05:21:27,245-: standard_train_sample_num1000000
+Training: 2026-06-19 05:21:27,245-: INTERPOLATION            bicubic
+Training: 2026-06-19 05:21:27,245-: RAF_NUM_CLASSES          7
+Training: 2026-06-19 05:21:27,245-: RAF_LABEL_SMOOTHING      0.1
+Training: 2026-06-19 05:21:27,245-: AUG_COLOR_JITTER         0.4
+Training: 2026-06-19 05:21:27,245-: AUG_AUTO_AUGMENT         rand-m9-mstd0.5-inc1
+Training: 2026-06-19 05:21:27,245-: AUG_REPROB               0.25
+Training: 2026-06-19 05:21:27,246-: AUG_REMODE               pixel
+Training: 2026-06-19 05:21:27,246-: AUG_RECOUNT              1
+Training: 2026-06-19 05:21:27,246-: AUG_MIXUP                0.0
+Training: 2026-06-19 05:21:27,246-: AUG_CUTMIX               0.0
+Training: 2026-06-19 05:21:27,246-: AUG_CUTMIX_MINMAX        None
+Training: 2026-06-19 05:21:27,247-: AUG_MIXUP_PROB           1.0
+Training: 2026-06-19 05:21:27,247-: AUG_MIXUP_SWITCH_PROB    0.5
+Training: 2026-06-19 05:21:27,247-: AUG_MIXUP_MODE           batch
+Training: 2026-06-19 05:21:27,247-: AUG_SCALE_SET            True
+Training: 2026-06-19 05:21:27,248-: AUG_SCALE_SCALE          (1.0, 1.0)
+Training: 2026-06-19 05:21:27,248-: AUG_SCALE_RATIO          (1.0, 1.0)
+Training: 2026-06-19 05:21:27,248-: batch_size               32
+Training: 2026-06-19 05:21:27,248-: train_num_workers        2
+Training: 2026-06-19 05:21:27,248-: train_pin_memory         True
+Training: 2026-06-19 05:21:27,248-: val_batch_size           64
+Training: 2026-06-19 05:21:27,248-: val_num_workers          0
+Training: 2026-06-19 05:21:27,249-: val_pin_memory           True
+Training: 2026-06-19 05:21:27,249-: total_batch_size         32
+Training: 2026-06-19 05:21:27,249-: epoch_step               31250
+Training: 2026-06-19 05:21:27,249-: num_epoch                2
+Training: 2026-06-19 05:22:35,151-rank_id: 0
+Training: 2026-06-19 05:22:45,071-: network                  swin_t
+Training: 2026-06-19 05:22:45,072-: resume                   False
+Training: 2026-06-19 05:22:45,072-: resume_step              0
+Training: 2026-06-19 05:22:45,072-: init                     True
+Training: 2026-06-19 05:22:45,072-: init_model               ./
+Training: 2026-06-19 05:22:45,072-: save_all_states          True
+Training: 2026-06-19 05:22:45,072-: output                   ./results
+Training: 2026-06-19 05:22:45,072-: img_size                 112
+Training: 2026-06-19 05:22:45,072-: embedding_size           512
+Training: 2026-06-19 05:22:45,072-: fp16                     True
+Training: 2026-06-19 05:22:45,072-: optimizer                adamw
+Training: 2026-06-19 05:22:45,072-: lr                       1.5625e-05
+Training: 2026-06-19 05:22:45,072-: weight_decay             0.05
+Training: 2026-06-19 05:22:45,072-: lr_name                  cosine
+Training: 2026-06-19 05:22:45,072-: warmup_lr                1.5625e-08
+Training: 2026-06-19 05:22:45,072-: min_lr                   1.5625e-07
+Training: 2026-06-19 05:22:45,072-: decay_epoch              10
+Training: 2026-06-19 05:22:45,073-: decay_rate               0.1
+Training: 2026-06-19 05:22:45,073-: verbose                  1000
+Training: 2026-06-19 05:22:45,073-: save_verbose             6000
+Training: 2026-06-19 05:22:45,073-: frequent                 10
+Training: 2026-06-19 05:22:45,073-: dali                     False
+Training: 2026-06-19 05:22:45,073-: seed                     2048
+Training: 2026-06-19 05:22:45,073-: num_workers              0
+Training: 2026-06-19 05:22:45,073-: warmup_step              2000
+Training: 2026-06-19 05:22:45,073-: total_step               60000
+Training: 2026-06-19 05:22:45,073-: expression_train_dataset RAF-DB
+Training: 2026-06-19 05:22:45,073-: expression_val_dataset   RAF-DB
+Training: 2026-06-19 05:22:45,073-: RAF_data                 ../../dataset/RAF
+Training: 2026-06-19 05:22:45,073-: RAF_label                ../../dataset/list_patition_label.txt
+Training: 2026-06-19 05:22:45,073-: standard_train_sample_num1000000
+Training: 2026-06-19 05:22:45,073-: INTERPOLATION            bicubic
+Training: 2026-06-19 05:22:45,073-: RAF_NUM_CLASSES          7
+Training: 2026-06-19 05:22:45,073-: RAF_LABEL_SMOOTHING      0.1
+Training: 2026-06-19 05:22:45,073-: AUG_COLOR_JITTER         0.4
+Training: 2026-06-19 05:22:45,073-: AUG_AUTO_AUGMENT         rand-m9-mstd0.5-inc1
+Training: 2026-06-19 05:22:45,074-: AUG_REPROB               0.25
+Training: 2026-06-19 05:22:45,074-: AUG_REMODE               pixel
+Training: 2026-06-19 05:22:45,074-: AUG_RECOUNT              1
+Training: 2026-06-19 05:22:45,074-: AUG_MIXUP                0.0
+Training: 2026-06-19 05:22:45,074-: AUG_CUTMIX               0.0
+Training: 2026-06-19 05:22:45,074-: AUG_CUTMIX_MINMAX        None
+Training: 2026-06-19 05:22:45,074-: AUG_MIXUP_PROB           1.0
+Training: 2026-06-19 05:22:45,074-: AUG_MIXUP_SWITCH_PROB    0.5
+Training: 2026-06-19 05:22:45,076-: AUG_MIXUP_MODE           batch
+Training: 2026-06-19 05:22:45,076-: AUG_SCALE_SET            True
+Training: 2026-06-19 05:22:45,076-: AUG_SCALE_SCALE          (1.0, 1.0)
+Training: 2026-06-19 05:22:45,076-: AUG_SCALE_RATIO          (1.0, 1.0)
+Training: 2026-06-19 05:22:45,076-: batch_size               16
+Training: 2026-06-19 05:22:45,076-: train_num_workers        2
+Training: 2026-06-19 05:22:45,076-: train_pin_memory         True
+Training: 2026-06-19 05:22:45,077-: val_batch_size           32
+Training: 2026-06-19 05:22:45,077-: val_num_workers          0
+Training: 2026-06-19 05:22:45,077-: val_pin_memory           True
+Training: 2026-06-19 05:22:45,077-: total_batch_size         16
+Training: 2026-06-19 05:22:45,077-: epoch_step               62500
+Training: 2026-06-19 05:22:45,077-: num_epoch                1
+Training: 2026-06-19 05:24:47,021-rank_id: 0
+Training: 2026-06-19 05:24:57,809-: network                  swin_t
+Training: 2026-06-19 05:24:57,809-: resume                   False
+Training: 2026-06-19 05:24:57,809-: resume_step              0
+Training: 2026-06-19 05:24:57,809-: init                     True
+Training: 2026-06-19 05:24:57,809-: init_model               ./
+Training: 2026-06-19 05:24:57,809-: save_all_states          True
+Training: 2026-06-19 05:24:57,810-: output                   ./results
+Training: 2026-06-19 05:24:57,810-: img_size                 112
+Training: 2026-06-19 05:24:57,810-: embedding_size           512
+Training: 2026-06-19 05:24:57,810-: fp16                     True
+Training: 2026-06-19 05:24:57,810-: optimizer                adamw
+Training: 2026-06-19 05:24:57,810-: lr                       1.5625e-05
+Training: 2026-06-19 05:24:57,810-: weight_decay             0.05
+Training: 2026-06-19 05:24:57,810-: lr_name                  cosine
+Training: 2026-06-19 05:24:57,810-: warmup_lr                1.5625e-08
+Training: 2026-06-19 05:24:57,810-: min_lr                   1.5625e-07
+Training: 2026-06-19 05:24:57,810-: decay_epoch              10
+Training: 2026-06-19 05:24:57,810-: decay_rate               0.1
+Training: 2026-06-19 05:24:57,810-: verbose                  1000
+Training: 2026-06-19 05:24:57,810-: save_verbose             6000
+Training: 2026-06-19 05:24:57,810-: frequent                 10
+Training: 2026-06-19 05:24:57,810-: dali                     False
+Training: 2026-06-19 05:24:57,811-: seed                     2048
+Training: 2026-06-19 05:24:57,811-: num_workers              0
+Training: 2026-06-19 05:24:57,811-: warmup_step              2000
+Training: 2026-06-19 05:24:57,811-: total_step               60000
+Training: 2026-06-19 05:24:57,811-: expression_train_dataset RAF-DB
+Training: 2026-06-19 05:24:57,811-: expression_val_dataset   RAF-DB
+Training: 2026-06-19 05:24:57,811-: RAF_data                 ../../dataset/RAF
+Training: 2026-06-19 05:24:57,811-: RAF_label                ../../dataset/list_patition_label.txt
+Training: 2026-06-19 05:24:57,812-: standard_train_sample_num1000000
+Training: 2026-06-19 05:24:57,813-: INTERPOLATION            bicubic
+Training: 2026-06-19 05:24:57,813-: RAF_NUM_CLASSES          7
+Training: 2026-06-19 05:24:57,813-: RAF_LABEL_SMOOTHING      0.1
+Training: 2026-06-19 05:24:57,813-: AUG_COLOR_JITTER         0.4
+Training: 2026-06-19 05:24:57,813-: AUG_AUTO_AUGMENT         rand-m9-mstd0.5-inc1
+Training: 2026-06-19 05:24:57,813-: AUG_REPROB               0.25
+Training: 2026-06-19 05:24:57,813-: AUG_REMODE               pixel
+Training: 2026-06-19 05:24:57,813-: AUG_RECOUNT              1
+Training: 2026-06-19 05:24:57,813-: AUG_MIXUP                0.0
+Training: 2026-06-19 05:24:57,813-: AUG_CUTMIX               0.0
+Training: 2026-06-19 05:24:57,813-: AUG_CUTMIX_MINMAX        None
+Training: 2026-06-19 05:24:57,813-: AUG_MIXUP_PROB           1.0
+Training: 2026-06-19 05:24:57,813-: AUG_MIXUP_SWITCH_PROB    0.5
+Training: 2026-06-19 05:24:57,813-: AUG_MIXUP_MODE           batch
+Training: 2026-06-19 05:24:57,814-: AUG_SCALE_SET            True
+Training: 2026-06-19 05:24:57,814-: AUG_SCALE_SCALE          (1.0, 1.0)
+Training: 2026-06-19 05:24:57,814-: AUG_SCALE_RATIO          (1.0, 1.0)
+Training: 2026-06-19 05:24:57,814-: batch_size               16
+Training: 2026-06-19 05:24:57,814-: train_num_workers        2
+Training: 2026-06-19 05:24:57,814-: train_pin_memory         True
+Training: 2026-06-19 05:24:57,814-: val_batch_size           32
+Training: 2026-06-19 05:24:57,814-: val_num_workers          0
+Training: 2026-06-19 05:24:57,814-: val_pin_memory           True
+Training: 2026-06-19 05:24:57,814-: total_batch_size         16
+Training: 2026-06-19 05:24:57,814-: epoch_step               62500
+Training: 2026-06-19 05:24:57,814-: num_epoch                1
+Training: 2026-06-19 05:27:08,329-rank_id: 0
+Training: 2026-06-19 05:27:18,583-: network                  swin_t
+Training: 2026-06-19 05:27:18,584-: resume                   False
+Training: 2026-06-19 05:27:18,584-: resume_step              0
+Training: 2026-06-19 05:27:18,584-: init                     True
+Training: 2026-06-19 05:27:18,584-: init_model               ./
+Training: 2026-06-19 05:27:18,584-: save_all_states          True
+Training: 2026-06-19 05:27:18,584-: output                   ./results
+Training: 2026-06-19 05:27:18,587-: img_size                 112
+Training: 2026-06-19 05:27:18,587-: embedding_size           512
+Training: 2026-06-19 05:27:18,587-: fp16                     True
+Training: 2026-06-19 05:27:18,587-: optimizer                adamw
+Training: 2026-06-19 05:27:18,587-: lr                       1.5625e-05
+Training: 2026-06-19 05:27:18,587-: weight_decay             0.05
+Training: 2026-06-19 05:27:18,587-: lr_name                  cosine
+Training: 2026-06-19 05:27:18,587-: warmup_lr                1.5625e-08
+Training: 2026-06-19 05:27:18,587-: min_lr                   1.5625e-07
+Training: 2026-06-19 05:27:18,587-: decay_epoch              10
+Training: 2026-06-19 05:27:18,587-: decay_rate               0.1
+Training: 2026-06-19 05:27:18,588-: verbose                  1000
+Training: 2026-06-19 05:27:18,588-: save_verbose             6000
+Training: 2026-06-19 05:27:18,588-: frequent                 10
+Training: 2026-06-19 05:27:18,588-: dali                     False
+Training: 2026-06-19 05:27:18,588-: seed                     2048
+Training: 2026-06-19 05:27:18,588-: num_workers              0
+Training: 2026-06-19 05:27:18,588-: warmup_step              2000
+Training: 2026-06-19 05:27:18,588-: total_step               60000
+Training: 2026-06-19 05:27:18,588-: expression_train_dataset RAF-DB
+Training: 2026-06-19 05:27:18,588-: expression_val_dataset   RAF-DB
+Training: 2026-06-19 05:27:18,588-: RAF_data                 ../../dataset/RAF
+Training: 2026-06-19 05:27:18,588-: RAF_label                ../../dataset/list_patition_label.txt
+Training: 2026-06-19 05:27:18,588-: standard_train_sample_num1000000
+Training: 2026-06-19 05:27:18,588-: INTERPOLATION            bicubic
+Training: 2026-06-19 05:27:18,588-: RAF_NUM_CLASSES          7
+Training: 2026-06-19 05:27:18,589-: RAF_LABEL_SMOOTHING      0.1
+Training: 2026-06-19 05:27:18,589-: AUG_COLOR_JITTER         0.4
+Training: 2026-06-19 05:27:18,589-: AUG_AUTO_AUGMENT         rand-m9-mstd0.5-inc1
+Training: 2026-06-19 05:27:18,589-: AUG_REPROB               0.25
+Training: 2026-06-19 05:27:18,589-: AUG_REMODE               pixel
+Training: 2026-06-19 05:27:18,589-: AUG_RECOUNT              1
+Training: 2026-06-19 05:27:18,589-: AUG_MIXUP                0.0
+Training: 2026-06-19 05:27:18,589-: AUG_CUTMIX               0.0
+Training: 2026-06-19 05:27:18,589-: AUG_CUTMIX_MINMAX        None
+Training: 2026-06-19 05:27:18,589-: AUG_MIXUP_PROB           1.0
+Training: 2026-06-19 05:27:18,589-: AUG_MIXUP_SWITCH_PROB    0.5
+Training: 2026-06-19 05:27:18,589-: AUG_MIXUP_MODE           batch
+Training: 2026-06-19 05:27:18,589-: AUG_SCALE_SET            True
+Training: 2026-06-19 05:27:18,589-: AUG_SCALE_SCALE          (1.0, 1.0)
+Training: 2026-06-19 05:27:18,589-: AUG_SCALE_RATIO          (1.0, 1.0)
+Training: 2026-06-19 05:27:18,589-: batch_size               16
+Training: 2026-06-19 05:27:18,589-: train_num_workers        2
+Training: 2026-06-19 05:27:18,589-: train_pin_memory         True
+Training: 2026-06-19 05:27:18,589-: val_batch_size           32
+Training: 2026-06-19 05:27:18,589-: val_num_workers          0
+Training: 2026-06-19 05:27:18,589-: val_pin_memory           True
+Training: 2026-06-19 05:27:18,590-: total_batch_size         16
+Training: 2026-06-19 05:27:18,590-: epoch_step               62500
+Training: 2026-06-19 05:27:18,590-: num_epoch                1
+Training: 2026-06-19 05:27:28,020-Speed 55.03 samples/sec   Loss 2.1849   LearningRate 0.000000   Epoch: 0   Global Step: 20   Fp16 Grad Scale: 65536   Required: 7 hours
+Training: 2026-06-19 05:27:30,735-Speed 58.98 samples/sec   Loss 2.1887   LearningRate 0.000000   Epoch: 0   Global Step: 30   Fp16 Grad Scale: 65536   Required: 6 hours
+Training: 2026-06-19 05:27:33,890-Speed 50.79 samples/sec   Loss 2.1877   LearningRate 0.000000   Epoch: 0   Global Step: 40   Fp16 Grad Scale: 65536   Required: 6 hours
+Training: 2026-06-19 05:27:36,964-Speed 52.12 samples/sec   Loss 2.1487   LearningRate 0.000000   Epoch: 0   Global Step: 50   Fp16 Grad Scale: 65536   Required: 6 hours
+Training: 2026-06-19 05:27:40,155-Speed 50.15 samples/sec   Loss 2.1861   LearningRate 0.000000   Epoch: 0   Global Step: 60   Fp16 Grad Scale: 65536   Required: 6 hours
+Training: 2026-06-19 05:27:42,709-Speed 62.76 samples/sec   Loss 2.1910   LearningRate 0.000001   Epoch: 0   Global Step: 70   Fp16 Grad Scale: 32768   Required: 6 hours
+Training: 2026-06-19 05:27:44,559-Speed 86.67 samples/sec   Loss 2.1466   LearningRate 0.000001   Epoch: 0   Global Step: 80   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:27:47,181-Speed 61.03 samples/sec   Loss 2.1389   LearningRate 0.000001   Epoch: 0   Global Step: 90   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:27:49,801-Speed 61.07 samples/sec   Loss 2.1454   LearningRate 0.000001   Epoch: 0   Global Step: 100   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:27:52,472-Speed 59.92 samples/sec   Loss 2.1510   LearningRate 0.000001   Epoch: 0   Global Step: 110   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:27:55,316-Speed 56.35 samples/sec   Loss 2.1433   LearningRate 0.000001   Epoch: 0   Global Step: 120   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:27:58,481-Speed 50.61 samples/sec   Loss 2.1209   LearningRate 0.000001   Epoch: 0   Global Step: 130   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:01,131-Speed 60.48 samples/sec   Loss 2.1064   LearningRate 0.000001   Epoch: 0   Global Step: 140   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:03,279-Speed 74.64 samples/sec   Loss 2.1119   LearningRate 0.000001   Epoch: 0   Global Step: 150   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:05,961-Speed 59.72 samples/sec   Loss 2.0665   LearningRate 0.000001   Epoch: 0   Global Step: 160   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:08,722-Speed 57.98 samples/sec   Loss 2.0783   LearningRate 0.000001   Epoch: 0   Global Step: 170   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:11,691-Speed 53.92 samples/sec   Loss 2.1083   LearningRate 0.000001   Epoch: 0   Global Step: 180   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:14,198-Speed 63.93 samples/sec   Loss 2.0824   LearningRate 0.000001   Epoch: 0   Global Step: 190   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:17,204-Speed 53.27 samples/sec   Loss 2.0418   LearningRate 0.000002   Epoch: 0   Global Step: 200   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:20,033-Speed 56.58 samples/sec   Loss 2.0622   LearningRate 0.000002   Epoch: 0   Global Step: 210   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:22,334-Speed 69.66 samples/sec   Loss 2.0515   LearningRate 0.000002   Epoch: 0   Global Step: 220   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:24,761-Speed 66.05 samples/sec   Loss 2.0537   LearningRate 0.000002   Epoch: 0   Global Step: 230   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:27,404-Speed 60.59 samples/sec   Loss 2.0602   LearningRate 0.000002   Epoch: 0   Global Step: 240   Fp16 Grad Scale: 8192   Required: 5 hours
+Training: 2026-06-19 05:28:30,398-Speed 53.45 samples/sec   Loss 2.0090   LearningRate 0.000002   Epoch: 0   Global Step: 250   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:33,174-Speed 57.78 samples/sec   Loss 2.0576   LearningRate 0.000002   Epoch: 0   Global Step: 260   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:35,488-Speed 69.17 samples/sec   Loss 1.9852   LearningRate 0.000002   Epoch: 0   Global Step: 270   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:37,769-Speed 70.30 samples/sec   Loss 2.0389   LearningRate 0.000002   Epoch: 0   Global Step: 280   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:40,618-Speed 56.18 samples/sec   Loss 2.0088   LearningRate 0.000002   Epoch: 0   Global Step: 290   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:42,957-Speed 68.63 samples/sec   Loss 1.9727   LearningRate 0.000002   Epoch: 0   Global Step: 300   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:45,322-Speed 67.67 samples/sec   Loss 2.0247   LearningRate 0.000002   Epoch: 0   Global Step: 310   Fp16 Grad Scale: 16384   Required: 5 hours
+Training: 2026-06-19 05:28:48,395-Speed 52.08 samples/sec   Loss 1.9990   LearningRate 0.000003   Epoch: 0   Global Step: 320   Fp16 Grad Scale: 16384   Required: 5 hours
